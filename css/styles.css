@@ -726,6 +726,7 @@ img {
             display: flex;
             gap: 56px;
             list-style: none;
+            margin-bottom: 40px;
         }
 
     .nav-links {
