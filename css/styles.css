@@ -643,6 +643,36 @@ img {
     .input-footer {
         width: 320px!important;
     }
+
+        .modal-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 290px;
+            min-height: 584px;
+            padding: 72px 16px 24px 16px;
+            background: var(--modal-background);
+            border-radius: 4px;
+            box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+}
+
+@media screen and (max-width: 319px) {
+    .modal-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 290px;
+        min-height: 584px;
+        padding: 72px 16px 24px 16px;
+        background: var(--modal-background);
+        border-radius: 4px;
+        box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 @media screen and (max-width: 767px) {
